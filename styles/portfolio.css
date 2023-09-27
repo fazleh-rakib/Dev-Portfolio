@@ -1,0 +1,82 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 20px 35px;
+  height: 65px;
+}
+
+
+
+/* header and nav styles */
+.bg{
+    background: #FFF8F3;
+    background-image: url("../portfolio-resources/images/header_bg.png") , url("../portfolio-resources/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right ,left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-left: 50px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.banner {
+  margin: 0px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-sub-title {
+  font-size: 45px;
+  font-weight: 600;
+  
+}
+.banner-p {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 5px;
+ 
+}
+/* Main Section Styling */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+background-color: #FFF8F3;
+
+margin-top: 130px;
+}
+.section-title{
+
+}
+.section-p{
+
+}
